@@ -1,11 +1,28 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
+  max-width: 980px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.page {
+  width: 100%;
   height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.plants {
+  height: 110px;
+  background: url(/assets/plant-bg.png) repeat-x;
+  background-position: bottom;
+  width: 100%;
 }
 
 .main {
