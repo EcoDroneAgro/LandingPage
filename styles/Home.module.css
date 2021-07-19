@@ -1,12 +1,12 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
-  max-width: 980px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background: #7ED957;
 }
 
 .page {
@@ -15,9 +15,39 @@
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
+
+.header {
+  color: #FFF;
+  height: 30vh;
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 25vh;
+}
+
+.squareContainer {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  width: 50%;
+  min-height: 50vh;
+  overflow: hidden;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .plants {
   height: 110px;
   background: url(/assets/plant-bg.png) repeat-x;
